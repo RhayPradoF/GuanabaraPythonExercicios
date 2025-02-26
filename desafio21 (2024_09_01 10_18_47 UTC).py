@@ -41,5 +41,4 @@ tk.Button(root, text="Browse", command=browse_file).pack(pady=5)
 tk.Button(root, text="Play", command=play_music).pack(pady=5)
 tk.Button(root, text="Stop", command=stop_music).pack(pady=5)
 
-# Inicia o loop principal da interface gráfica
 root.mainloop()
